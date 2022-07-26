@@ -2,6 +2,10 @@
 Here is the common CAN BUS codes used for telemetry in a typical racing application.  
 TODO: Found a way to get the brake pressure instead of an on/off signal.
 
+# Disclaimer
+The CAN PID codes provided here are for experimental purpose only. Use them at your own risks.  
+I am not associated with or sponsored by any of the companies listed here. I simply use their products for my personal use.
+
 # Equipement used
 The following codes have been successfully tested with the following equipement and software:
 - [OBDLink MX+](https://www.obdlink.com/products/obdlink-mxp) Bluetooth scanner
