@@ -16,6 +16,10 @@ The following codes have been successfully tested with the following equipement 
 # Initial setup
 As of version 7.5.3, it's required to enable experimental features in RaceChrono to make it works. Follow this [link](https://racechrono.com/article/faq/how-do-i-log-can-bus-messages) for more information.
 
+# Conventions
+- Multibytes values are big endian
+- In RaceChrono, Bits position are counted from MSB and range from 0 to 63. I.g.: Bits 57 has a value of 64.
+
 # The codes
 ### Accelerator Position
 - PID: `0x201`
