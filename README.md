@@ -115,4 +115,5 @@ As of version 7.5.3, it's required to enable experimental features in RaceChrono
 - Value type: `INT16`
 - Formula: `Stering Angle (°) = Value`
 - RaceChrono item: `Steering angle(°)`
-- RaceChrono formula: `BytesToInt(raw, 2, 2)`
+- RaceChrono formula: `BytesToInt(raw, 2, 2) * -1`
+- Note: RaceChrono needs the input to be inversed form the original value to display the streeing angle animation correctly. So we multiply the value by '-1' to invert the angle.
